@@ -35,3 +35,8 @@ def get_user_by_id():
   id = request.json['id']
   user = user_db.get_user_by_id(id)
   return jsonify(user)
+
+
+if __name__ == "__main__":
+  port = int(os.environ.get('PORT', 5000)) 
+  app.run(host='0.0.0.0', port=port)
