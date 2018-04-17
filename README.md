@@ -11,7 +11,7 @@
 ## Setup 
 ### Install and setup virutalenv 
 
-- ` pip install virtaulenv `
+- ` pip install virtualenv `
 - ` virtualenv flask_env `
 
 ### Activate virtaul environment/Intial Setup
