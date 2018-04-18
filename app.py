@@ -1,8 +1,8 @@
 from flask import Flask,jsonify,request
 from flask_cors import CORS, cross_origin
-from dotenv import load_dotenv
 
-load_dotenv(verbose=True)
+# from dotenv import load_dotenv
+# load_dotenv(verbose=True)
 
 from api.engine.movies import get_movies
 from api.db.user_database import UserDatabase
