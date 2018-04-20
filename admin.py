@@ -7,8 +7,7 @@ import click
 from dotenv import load_dotenv
 load_dotenv(verbose=True)
 
-from api.db.movie_database import MovieDatabase
-from api.db.rating_database import RatingDatabase
+from api.db import MovieDatabase, RatingDatabase
 
 movie_db = MovieDatabase()
 ratings_db = RatingDatabase()

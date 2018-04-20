@@ -4,8 +4,8 @@ from flask_cors import CORS, cross_origin
 # from dotenv import load_dotenv
 # load_dotenv(verbose=True)
 
-from api.engine.movies import get_movies
-from api.db.user_database import UserDatabase
+from api.engine import get_movies
+from api.db import UserDatabase
 import os 
 
 user_db = UserDatabase()

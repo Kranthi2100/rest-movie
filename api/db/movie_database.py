@@ -1,5 +1,5 @@
 from bson.objectid import ObjectId
-from api.config.mongo import (
+from api.config import (
   movie_collection,
   object_id_converter,
   JSONEncoder

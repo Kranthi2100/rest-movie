@@ -1,5 +1,5 @@
 from bson.objectid import ObjectId
-from api.config.mongo import (
+from api.config import (
     user_rating_collection,
     object_id_converter,
     JSONEncoder
